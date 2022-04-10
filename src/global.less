@@ -1,0 +1,38 @@
+// 全局样式
+:root:root {
+  --yy-text-top: #121826;
+  --yy-text-sub: #3c3e42;
+  --yy-text-last: #6f6f6f;
+  --yy-text-tag: #848484;
+  --yy-text-dark: #979797;
+
+  --yy-bg-main: #16c2a3;
+  --yy-bg-shalow: #eaf8f6;
+  --yy-bg-yellow: linear-gradient(135deg, #fca21c, #fa6d1d 100%);
+  --yy-bg-gray: #f6f7f9;
+
+  --yy-color-tip: #c3c3c5;
+  --yy-color-invalid: #d9dbde;
+  --yy-color-line: #ededed;
+
+  // 覆盖
+  --adm-color-primary: #16c2a3;
+}
+
+#root {
+  position: relative;
+  color: var(--yy-text-top);
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.adm-tab-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid var(--yy-color-line);
+}

@@ -1,0 +1,55 @@
+.HomeFollow {
+  background-color: var(--yy-bg-gray);
+  height: 250px;
+  :global {
+    .head {
+      display: flex;
+      justify-content: space-between;
+      height: 45px;
+      align-items: center;
+      padding: 0 15px;
+      font-size: 13px;
+      > p {
+        margin-bottom: 0;
+      }
+      > a {
+        color: var(--yy-color-tip);
+      }
+    }
+    .body {
+      width: 100%;
+      overflow: hidden;
+    }
+    .doctor-item {
+      width: 134px;
+      height: 190px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0px 0px 11px 0px rgba(229,229,229,0.20); 
+      text-align: center;
+      padding: 15px;
+      > .adm-image {
+        width: 58px;
+        height: 58px;
+        vertical-align: top;
+        border-radius: 50%;
+        margin: 0 auto 8px;
+      }
+      > p {
+        margin-bottom: 0;
+        font-size: 11px;
+        color: var(--yy-text-dark);
+        &.name {
+          font-size: 13px;
+          color: var(--yy-text-top);
+          margin-bottom: 5px;
+        }
+      }
+      > .adm-button {
+        padding: 4px 16px;
+        font-size: 12px;
+        margin-top: 8px;
+      }
+    }
+  }
+}
